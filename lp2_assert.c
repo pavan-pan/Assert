@@ -1,3 +1,8 @@
+/**@brief Function called by ASSERT.
+ * @param[in] file        Name of the file where the error occurs
+ * @param[in] line        Line in the file where the error occurs
+ * @param[in] error_code  Error code 
+ */
 #include "lp2_assert.h"
 #include "stdio.h"
 #include "nrf_log.h"
